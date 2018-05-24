@@ -12,11 +12,12 @@
 #name {
     background-color: #4aaaa5;
     position:relative;
-    padding: 0px 1vw 2vh 1vw;
-    line-height: 7.4vw;
+    padding: 4.5vh 1vw 4.4vh 1vw;
+    line-height: 5vw;
     font-size:2rem;
     color: white;
     width: 20vw;
+    height: 20vh;
     top:0;
     left: 13.5vw;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -80,4 +81,23 @@ body {
     border-color: #ffffff;
     border-top-color: #d3d3d3;
     border-style:solid;
+}
+.headb {
+    position: relative;
+    float: right;
+    top: 4.5vh;
+    right:15.5vw;
+    margin-right: 15px;
+}
+.headbp {
+    position: relative;
+    top: 4.3vh;
+    padding: 0vh 1vw 0vh 1vw;
+    border-style: solid;
+    border-color: #ffffff;
+    border-right-color: #d3d3d3;
+    border-left-color: #d3d3d3;
+    border-right-width: 1px;
+    border-left-width: 1px;
+
 }
