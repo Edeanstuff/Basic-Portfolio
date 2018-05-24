@@ -13,11 +13,12 @@
     background-color: #4aaaa5;
     position:relative;
     padding: 0px 1vw 2vh 1vw;
-    line-height: 8vw;
+    line-height: 7.4vw;
+    font-size:2rem;
     color: white;
     width: 20vw;
     top:0;
-    left: 20vw;
+    left: 13.5vw;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 .norm {
@@ -62,6 +63,10 @@ body {
 }
 .header {
     background-color:#ffffff;
+    border-color: #ffffff;
+    border-bottom-color: #d3d3d3;
+    border-bottom-width: 2px;
+    border-style:solid;
     position:fixed;
     top:0;
     left:0;
