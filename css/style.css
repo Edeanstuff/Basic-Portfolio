@@ -28,7 +28,7 @@
     font-size: 1.4rem;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-.h2 {
+.hb2 {
     position:relative;
     top:2vh;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -48,7 +48,6 @@ body {
     width: 100%;
     background-color:#666666;
     border-top-width:7.69px;
-    margin-bottom: 0;
     border-top-color: #4aaaa5;
     border-style: solid;
     text-align:center;
@@ -99,5 +98,41 @@ body {
     border-left-color: #d3d3d3;
     border-right-width: 1px;
     border-left-width: 1px;
-
+}
+.alfix{
+    position: relative;
+    left:3vw;
+}
+.first2[type=text], select {
+    width: 90%;
+    position: relative;
+    left: 3vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.msg[type=text], select2 {
+    width: 90%;
+    position:relative;
+    left: 3vw;
+    padding: 0px 0vw 18.2vh 0vw;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 20%;
+    position:relative;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    left: 3vw;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
