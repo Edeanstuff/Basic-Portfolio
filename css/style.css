@@ -62,10 +62,11 @@ body {
     position: fixed;
     left:0;
     bottom:0;
-    padding: 10vh 0px -2vh 0vw;
+    padding: 20px 0px 5px 0px;
     width: 100%;
     line-height: 3vw;
-    
+    margin-top:20px auto;
+    color:#ffffff;
     background-color:#666666;
     border-top-width:7.69px;
     border-top-color: #4aaaa5;
